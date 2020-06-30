@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    android:orientation="vertical"
+    tools:context=".Views.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/pad_30dp"
+            android:layout_marginTop="@dimen/pad_80dp"
+            android:layout_marginRight="@dimen/pad_30dp"
+            android:text="A whole grocery store at your fingertips"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/pad_25dp" />
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="141dp"
+            android:layout_height="160dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="@dimen/pad_50dp"
+            android:layout_marginEnd="58dp"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/cart1" />
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/pad_50dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:text="GROCER"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

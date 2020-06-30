@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Offers"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pad_200dp"
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:layout_marginRight="@dimen/pad_10dp"
+        android:layout_marginLeft="@dimen/pad_10dp">
+
+        <ImageView
+            android:layout_width="251dp"
+            android:layout_height="129dp"
+            android:src="@drawable/offers"/>
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here Everything Better"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:textSize="15sp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/appColor"
+            android:fontFamily="@font/muli"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Happy products for happy shopping"
+            android:textSize="@dimen/pad_20dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="@dimen/pad_250dp"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/appColor"
+            android:textStyle="bold"
+            android:background="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="@dimen/pad_120dp"
+            android:src="@drawable/banner1" />
+
+    </androidx.cardview.widget.CardView>
+
+
+        <GridView
+            android:id="@+id/gridviewdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="@dimen/pad_1dp"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp"
+            android:numColumns="2"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:verticalSpacing="@dimen/pad_1dp"></GridView>
+
+</LinearLayout>
